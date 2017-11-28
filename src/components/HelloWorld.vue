@@ -49,7 +49,7 @@
                 auto: 3000,
                 draggable: false,
                 continuous: true,
-                disableScroll: false,
+                disableScroll: true,
                 stopPropagation: false,
                 callback: function(index, elem, dir) {
                     vm.activeIndex = index + 1
