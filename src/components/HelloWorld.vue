@@ -1,6 +1,5 @@
 <template>
     <div class="container">
-        <h1>Привет Наташка от Heroku</h1>
         <div @mouseenter="stop" @mouseleave="play">
             <div ref="slider" class="slider swipe">
                 <div class="swipe-wrap">

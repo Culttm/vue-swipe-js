@@ -8,7 +8,8 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "build": "node build/build.js",
     "start": "node server.js",
-    "prestart": "yarn build"
+    "prestart": "yarn build",
+    "deploy": "git add . && git commit -m 'deploy' && git push heroku master"
   },
   "dependencies": {
     "autoprefixer": "^7.1.2",
